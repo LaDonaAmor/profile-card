@@ -6,10 +6,10 @@
 
 :root {
   --primary: #16d9e3;
-  --primary-dark: #0fb5c4;
+  --primary-dark: #0a9ca8;
   --black: #1f2937;
-  --gray: #4b5563;
-  --light-gray: #6b7280;
+  --gray: #374151;
+  --light-gray: #4b5563;
   --bg: whitesmoke;
 }
 
@@ -120,9 +120,9 @@ body {
 .hobbies,
 .dislikes {
   font-size: 1rem;
-  margin: 1.2rem 0;
+  margin: 1.2rem 0 0.75rem 0;
   color: var(--primary-dark);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .hobbies-section ul,
