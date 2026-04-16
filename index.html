@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <article class="profile-container" data-testid="test-profile-card">
+            <header class="profile-header">
+                <figure class="profile-avatar">
+                    <img src="assets/img/img.png" alt="Picture of Racheal I. Ogunmodede"
+                        data-testid="test-user-avatar" />
+                </figure>
+                <h2 class="profile-name" data-testid="test-user-name">Racheal Ifeoluwa Ogunmodede</h2>
+            </header>
+
+            <section class="bio-section">
+                <p class="profile-bio" data-testid="test-user-bio">
+                    Passionate Frontend Developer and Registered Nurse/Midwife with a love for building beautiful,
+                    user-friendly web experiences. I enjoy turning ideas into reality with clean code and creativity.
+                </p>
+            </section>
+
+            <section class="time-section">
+                <p class="current-time" data-testid="test-user-time" aria-live="polite">
+                </p>
+            </section>
+
+            <section class="socials-section" data-testid="test-user-social-links">
+                <ul>
+                    <li>
+                        <a href="https://instagram.com/ladonaamor" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-instagram">
+                            Instagram
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://x.com/LaDona_Amor" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-x">
+                            X (formerly Twitter)
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/rachealogunmodede/" target="_blank"
+                            rel="noopener noreferrer" data-testid="test-user-social-linkedin">
+                            LinkedIn
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://pin.it/1f8bdMkrG" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-pinterest">
+                            Pinterest
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="hobbies-section" data-testid="test-user-hobbies">
+                <h3 class="hobbies">Hobbies</h3>
+                <ul>
+                    <li>Reading books (fiction mostly & self-development)</li>
+                    <li>Crochet & crafting</li>
+                    <li>Web development & learning new tech</li>
+                    <li>Watching movies & storytelling</li>
+                </ul>
+            </section>
+
+            <section class="dislikes-section" data-testid="test-user-dislikes">
+                <h3 class="dislikes">Dislikes</h3>
+                <ul>
+                    <li>Negative energy / toxic people</li>
+                    <li>Bugs that appear right before deployment</li>
+                    <li>Early morning alarms (unless it's for a good reason)</li>
+                </ul>
+            </section>
+
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
